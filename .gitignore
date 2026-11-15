@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.backup.db
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local investigation data and generated reports
+apps/api/data/
+
+# Local backups and old files
+*.backup
+*.old-schema
+*.bak

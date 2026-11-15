@@ -1,0 +1,22 @@
+From: Microsoft Support <support@micros0ft-help.test>
+To: analyst@example.test
+Reply-To: reset@credential-verify.test
+Subject: Urgent account verification required
+Date: Tue, 23 Sep 2026 10:00:00 +0000
+Message-ID: <local-analysis-basic@example.test>
+Received: from mx.credential-verify.test by mail.example.test
+Authentication-Results: mail.example.test; spf=fail dkim=fail dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="phishing-boundary"
+
+--phishing-boundary
+Content-Type: text/plain; charset="utf-8"
+
+URGENT: verify your account immediately. Login at https://micros0ft-login.test/verify.
+
+--phishing-boundary
+Content-Type: application/octet-stream; name="invoice.pdf.exe"
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+
+Synthetic inert attachment bytes.
+--phishing-boundary--

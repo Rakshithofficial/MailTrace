@@ -1,0 +1,23 @@
+From: Billing Desk <billing@example.test>
+To: analyst@example.test
+Cc: reviewer@example.test
+Reply-To: reply@example.test
+Subject: Controlled invoice notice
+Date: Tue, 23 Sep 2026 10:00:00 +0000
+Message-ID: <intake-basic@example.test>
+Received: from mx.example.test (198.51.100.10) by mail.example.test
+Authentication-Results: mail.example.test; spf=pass
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mailtrace-boundary"
+
+--mailtrace-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Review the controlled notice at https://example.test/notice.
+
+--mailtrace-boundary
+Content-Type: text/plain; name="notice.txt"
+Content-Disposition: attachment; filename="notice.txt"
+
+Synthetic attachment metadata fixture only.
+--mailtrace-boundary--
